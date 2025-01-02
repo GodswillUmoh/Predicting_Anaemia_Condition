@@ -88,13 +88,11 @@ r2_score(y_test, y_pred)
 
 ## Results of the prediction
 ### Model Building and Evaluation
-_After preprocessing, I built the models and evaluated their performance using the r2_score metric from Scikit-learn. A score closer to 1 indicates a better-performing model. Here are the results:_
+> _After preprocessing, I built the models and evaluated their performance using the r2_score metric from Scikit-learn. A score closer to 1 indicates a better-performing model. Here are the results:_
 
-+ Multiple Linear Regression: 0.3884
-
-+ Support Vector Regression: 0.3762
-
-+ Random Forest Regression: 0.5777
+> + Multiple Linear Regression: 0.3884
+> + Support Vector Regression: 0.3762
+> + Random Forest Regression: 0.5777
 
 ## Key Insights
 From the evaluation, Random Forest Regression outperformed the other models with a 58% prediction accuracy. This suggests that it is the most suitable model for this dataset.
